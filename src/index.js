@@ -4,9 +4,9 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import MaterialList from "./components/tickets/MaterialList";
-import MaterialDetails from "./components/tickets/MaterialDetails";
-import CreateMaterial from "./components/tickets/CreateMaterial";
+import MaterialList from "./components/materials/MaterialList";
+import MaterialDetails from "./components/materials/MaterialDetails";
+import CreateMaterial from "./components/materials/CreateMaterial";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
